@@ -27,6 +27,8 @@ public class Main {
 
         if (number == 2) {
             System.out.println("You open the door, and you hear a click. You look down and see a trapdoor open beneath you, you fall into the darkness below");
+            System.out.println("When you come to, your in the middle of the forest.");
+            forest();
         }
 
         if (number == 3) {
@@ -38,7 +40,33 @@ public class Main {
         System.out.println("Looking around, you see an object on the floor... a key. You pick it up and try the door... which opens!");
         System.out.println("Going through the door, you walk down a long curved hallway, where you find a window, moonlight shinging through it");
         System.out.println("You push on the window, and it swings open... do you want to exit the building or turn back? e/b");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("e")) {
+            System.out.println("You jump out the window. Outside, you see a forest to your right and water to your left, with city lights faintly shining in the distance.");
+            System.out.println("Do you want to go to the forest or the water? f/w");
+            String input2 = scanner.nextLine();
+            if (input2.equals("f")) {
+                System.out.println("You turn and march towards the forest, the trees seeming larger then you initially realized.");
+                forest();
+            } else if (input2.equals("w")) {
+                System.out.println("You head towards the water, the waves lapping at your feet... you spot a raft behind a rock...");
+            }
+        }
+
+        if (input.equals("b")) {
+            System.out.println("You try and turn back... but its too late... they found you... better luck next time!");
+            dead();
+        }
     }
+
+
+
+
+
+
+
+
 
     public static void main(String[] args) {
         
@@ -54,10 +82,19 @@ public class Main {
          
         } else {
             System.out.println("Dude what the heck... your a chud if u dont wanna play this game!");
+            dead();
         }
 
         
         
     }
+
+    public static void dead() {
+        System.out.println("You are dead. Better luck next time!");
+    }
     
+    public static void forest() {
+        System.out.println("as you walk through the forest, you suddenly find a cave... with a light glowing from inside... curious... you nervously walk inside");
+        System.out.println("Inside, you find a maze... 8 turns in total. You can only go left or right at each turn. Good luck!");
+    }
 }

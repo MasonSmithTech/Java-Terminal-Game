@@ -33,6 +33,9 @@ public class Main {
 
         if (number == 3) {
             System.out.println("You open the door, and you enter a room empty except for a piano in the corner, covered in dust.");
+            System.out.println("You sit down at the piano and notice that 3 key have no dust at all... g, a and b. You are sure this is a clue, so you play a key.");
+            keys(false, false);
+            
         }
     }
 
@@ -57,6 +60,57 @@ public class Main {
         if (input.equals("b")) {
             System.out.println("You try and turn back... but its too late... they found you... better luck next time!");
             dead();
+        }
+    }
+
+    public static void keys(boolean jem, boolean map) {
+        System.out.println("Which key do you want to play? g/a/b");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("g")) {
+            if (jem == false) {
+                System.out.println("You press down the key and a low g plays... you hear a small rattling noise, and a small chute opens... a small jem rolls out.");
+                jem = true;
+                again(jem, map);
+            } else if (jem == true) {
+                System.out.println("You press down the key and a low g plays... nothing happens.");
+                again(jem, map);
+            }
+        }
+
+        if (input.equals("a")) {
+            System.out.println("You press the key, but no sound comes out... try another key?");
+            again(jem, map);
+        }
+
+        if (input.equals("b")) {
+            if (map == false) {
+                System.out.println("You press down the key and a low b plays... you hear a small click and a small door opens... revealing a crumpled map.");
+                map = true;
+                again(jem, map);
+            } else {
+                System.out.println("You press down the key and a low b plays... nothing happens.");
+                again(jem, map);
+            }
+        }
+
+    }
+
+    public static void again(boolean jem1, boolean map1) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you want to play another piano key? y/n");
+        if (scanner.nextLine().equals("y")) {
+            keys(jem1, map1);
+        } else {
+            if (jem1 && map1) {
+                System.out.println("Glancing down at the map, you see it points towards the corner of the room... you walk over and start looking.");
+                System.out.println("In the corner of the room, covered in dust, you find a staff. As you run your hands over the hilt, you feel a small notch... the same size as the jem.");
+                System.out.println("You click the jem into place, and in a flash of light.... you teleport to the woods");
+                forest();
+            } else {
+                System.out.println("unsure what to do... you stare at the wall...you know they are coming... better luck next time!");
+                dead();
+            }
         }
     }
 

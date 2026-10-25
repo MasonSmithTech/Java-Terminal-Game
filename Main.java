@@ -315,11 +315,25 @@ public class Main {
         if (passcoder == 676) {
             System.out.println("wow... such a lucky guess!");
             System.out.println("the door clicks... you are able to walk through.");
+            theEnd();
         }
         else {
             System.out.println("maybe better luck next time man... that was NOT right!");
             passcode();
         }
+    }
+
+    public static void theEnd() {
+        System.out.println("as you walk through the door.... the smell of smoke meets your nostrals... it smells familiar... like the smog from the city where u were living");
+        System.out.println("a wave of familiarity washes over you, and you stop for a moment... suddenly, you are back outside your apartment as if nothing happened...");
+        System.out.println("was that just a dream... a nightmare?");
+        System.out.println("As you turn the handle of your front door... you notice a note taped to the front glass... .picking it up... it reads 'good job kid'");
+        System.out.println("you chuckle softly before going intop your bedroom and lying down... tired from the dream you were just a part of");
+
+        System.out.println(" ");
+        System.out.println("COngradulations... you won");
+        System.out.println(" ");
+        System.out.println("reload of you wish to play again...");
     }
 }
 

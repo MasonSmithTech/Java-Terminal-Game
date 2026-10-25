@@ -50,6 +50,11 @@ This is the criteria you must meet to be eligble:
 
 These one is pretty straightforward since it mainly uses lots of if statements and scanners in order to collect the user/students statistics
 
+## Images
+**This is the if statement responsible for all of the qualifying.**
+
+![alt text](image.png)
+
 ### Sample students
 
 I made a few sample students and their stories:
@@ -77,9 +82,5 @@ Overall Grade: 85.7     Absences: 9     Community Service Hours: 15
 
 **Student Profile:**
 Frank Furt is your average, run of the mill student. He may not wow anyone with his attendance or his GPA, but both are respectable, as well as the amount of time he dedicates to his community with a respectable 15 hours of community service at the senior center. He may not be outstanding, but he is definitely reliable.
-
-**This is the if statement responsible for all of the qualifying.**
-
-![alt text](image.png)
 
 </details>

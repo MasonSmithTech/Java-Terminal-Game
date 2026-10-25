@@ -150,5 +150,138 @@ public class Main {
     public static void forest() {
         System.out.println("as you walk through the forest, you suddenly find a cave... with a light glowing from inside... curious... you nervously walk inside");
         System.out.println("Inside, you find a maze... 8 turns in total. You can only go left or right at each turn. Good luck!");
+        maze();
+    }
+
+    public static void maze() {
+        boolean t1 = false;
+        boolean t2 = false;
+        boolean t3 = false;
+        boolean t4 = false;
+        boolean t5 = false;
+        boolean t6 = false;
+        boolean t7 = false;
+        boolean t8 = false;
+
+        System.out.println("You enter the maze, knowing you must get all 8 turns right in order to get through.");
+        //turn 1
+        System.out.println("You reach the first turn, do you go left or right? l/r");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("l")) {
+            t1 = true;
+            System.out.println("You made the correct choice...so you keep walking");
+        }
+
+        else {
+            System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+            maze();
+        }
+
+        //turn 2
+        if (t1) {
+            System.out.println("you reached the second turn... now what do you do? l/r");
+            String input2 = scanner.nextLine();
+            if (input2.equals("r")) {
+                t2 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
+        //turn 3
+        if (t2) {
+            System.out.println("you reached the third turn... now what do you do? l/r");
+            String input3 = scanner.nextLine();
+            if (input3.equals("l")) {
+                t3 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
+        //turn 4
+        if (t3) {
+            System.out.println("you reached the fourth turn... now what do you do? l/r");
+            String input4 = scanner.nextLine();
+            if (input4.equals("r")) {
+                t4 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
+        //turn 5
+        if (t4) {
+            System.out.println("you reached the fifth turn... now what do you do? l/r");
+            String input5 = scanner.nextLine();
+            if (input5.equals("r")) {
+                t5 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
+        //turn 6
+        if (t5) {
+            System.out.println("you reached the sixth turn... now what do you do? l/r");
+            String input6 = scanner.nextLine();
+            if (input6.equals("l")) {
+                t6 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
+        //turn 7
+        if (t6) {
+            System.out.println("you reached the seventh turn... now what do you do? l/r");
+            String input7 = scanner.nextLine();
+            if (input7.equals("r")) {
+                t7 = true;
+                System.out.println("You made the correct choice...so you keep walking");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+        //turn 8
+        if (t7) {
+            System.out.println("you reached the eighth FINAL turn... now what do you do? l/r");
+            String input8 = scanner.nextLine();
+            if (input8.equals("r")) {
+                t8 = true;
+                System.out.println("You made the correct choice...allowing you to walk out of the maze... and deeper into the next part of the cave.");
+            }
+
+            else {
+                System.out.println("You made the wrong choice... you must start from the beginning of the maze!");
+                maze();
+            }
+        }
+
     }
 }
+

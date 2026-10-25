@@ -84,3 +84,28 @@ Overall Grade: 85.7     Absences: 9     Community Service Hours: 15
 Frank Furt is your average, run of the mill student. He may not wow anyone with his attendance or his GPA, but both are respectable, as well as the amount of time he dedicates to his community with a respectable 15 hours of community service at the senior center. He may not be outstanding, but he is definitely reliable.
 
 </details>
+
+<details>
+  <summary>5 Question Math Quiz</summary>
+
+## 5 Question Math Quiz
+
+This is a set of 3, 5 question math quizzes, each with a different difficulty. 
+The **easy** quiz only involves addition and subtraction. The **medium** quiz adds mutliplication and division. The **hard** quiz adds exponents, fractions, triangles, and percentages. 
+
+Want to know how you did... Dont worry!     You are given a score out of 5 for the quiz you take!
+
+Like the other programs, this one uses a lot of if statements, and a lot of scanners... since it is based in the terminal...(duhhhh).
+The most difficult part of this whole project was definitely thinking of all the math problems, since im not very good at math... (I have a C+ in AP Calc right now).
+
+## Images
+
+The only image I have for this program is the selection purpose for when you choose which quiz you want to take.
+
+![alt text](image-1.png)
+
+### Last notes
+
+This was by far the most technically easy program to write since a lot of the code was repeating and just values changed, but it was still one of the more time consuming since I had to create math problems (see lapse) and also find solutions... for all three quizzes.
+
+</details>

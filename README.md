@@ -9,7 +9,7 @@ To see information on each of my projects, click the dropdown to expand the sect
 
 # What is this?
 
-This is a set of threeprograms written inside of java that can be viewed, edited, and run via the website (linked below). Originally it started out as a single program, but I finished that one quickly so I decided to add two others that are part of the same package. 
+This is a set of three programs written inside of java that can be viewed, edited, and run via the website (linked below). Originally it started out as a single program, but I finished that one quickly so I decided to add two others that are part of the same package. 
 
 # How-To-Play
 To view and run my projects go to this website:

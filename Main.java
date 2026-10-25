@@ -54,6 +54,10 @@ public class Main {
                 forest();
             } else if (input2.equals("w")) {
                 System.out.println("You head towards the water, the waves lapping at your feet... you spot a raft behind a rock...");
+                System.out.println("Hopping on the raft, the city lights shining across the bay seem to be getting brighter... you are almost free.");
+                System.out.println("as you paddle through the fridgid water... you notice a dorsel fin pierce the waters surface.... this cant be good.");
+                System.out.println("you cant outrun the shark... better luck next time!");
+                dead();
             }
         }
 
@@ -274,6 +278,7 @@ public class Main {
             if (input8.equals("r")) {
                 t8 = true;
                 System.out.println("You made the correct choice...allowing you to walk out of the maze... and deeper into the next part of the cave.");
+                caveSecond();
             }
 
             else {
@@ -282,6 +287,39 @@ public class Main {
             }
         }
 
+    
+    }
+
+    public static void caveSecond() {
+        System.out.println("As you continue walking through the cave, the glowing light seems to be getting brighter.");
+        System.out.println("as you turn the corner, you come face to face with a wall of fire, the heat radiating off your face.");
+        System.out.println("beyond the blaze, you can clearly see a door... but the fire is in the way... will you leap across or turn back? l/b");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("l")) {
+            System.out.println("taking a deep breath you leap across the fire, the heat burning your skin... but you make it across.");
+            System.out.println("to your dismay, the door has a passcode, which you are unsure of...");
+            passcode();
+        }
+        else {
+            System.out.println("you turn back, and spot them.... they followed you through the maze... better luck next time");
+            dead();
+        }
+    }
+
+    public static void passcode() {
+        System.out.println("the passcode on the wall has 3 digits, all numbers 0-9... you must make a guess");
+        System.out.println("you must guess the passcode... you know their favorite number is 6.... good luck! (enter a 3 digit guess)");
+        Scanner scanner = new Scanner(System.in);
+        int passcoder = scanner.nextInt();
+        if (passcoder == 676) {
+            System.out.println("wow... such a lucky guess!");
+            System.out.println("the door clicks... you are able to walk through.");
+        }
+        else {
+            System.out.println("maybe better luck next time man... that was NOT right!");
+            passcode();
+        }
     }
 }
 

@@ -7,6 +7,10 @@ Also, Im not sure if this stuff all counts as part of the challange but I think 
 
 To see information on each of my projects, click the dropdown to expand the section.... (it looks a little bit neater).
 
+# What is this?
+
+This is a set of threeprograms written inside of java that can be viewed, edited, and run via the website (linked below). Originally it started out as a single program, but I finished that one quickly so I decided to add two others that are part of the same package. 
+
 # How-To-Play
 To view and run my projects go to this website:
 https://sites.google.com/view/escapeislandjavaterra/home
@@ -109,3 +113,7 @@ The only image I have for this program is the selection purpose for when you cho
 This was by far the most technically easy program to write since a lot of the code was repeating and just values changed, but it was still one of the more time consuming since I had to create math problems (see lapse) and also find solutions... for all three quizzes.
 
 </details>
+
+## Closing Remarks
+
+This project was very fun for me to complete since all of these programs were things that I wanted to make, so being able to get credit for Terra was a huge bonus. This was a massive undertaking for me since I completed all 10 hrs of code in only one weekend, since I had so much schoolwork during the week. I learned a surprisingly large amount about Java and VsCode, since both were not unfamiliar but also not veteran tools for me. **These projects definitely are not perfect or complete... and I am sure there is bugs... if you have any suggestions/comments/fixes feel free to email me at: masonbbbsmith@gmail.com**

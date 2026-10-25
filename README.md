@@ -32,3 +32,54 @@ This is some of the game art that I made for this project:
 <img width="60" height="60" alt="pixil-frame-0 (9)" src="https://github.com/user-attachments/assets/52a3915d-f27a-4cda-a349-79f48e8201b1" />
 
 </details>
+
+<details>
+  <summary>Honor Cord Calculator</summary>
+
+   ## Honor Cord Calculator
+
+  This is a calculator that allows you to find out if you are able to earn an honor cord at my school. 
+You are judged on your GPA, absences, and community service hours.
+This is the criteria you must meet to be eligble:
++ Students who have been absent for more than 18 days are not eligible for an honor cord no matter what else is true.
++ Students who have a 95% overall grade or completed 30 hours of community service above are eligible to receive an honor cord.
++ Students who have a 90% overall grade or above and completed 5 hours of community service are eligible to receive an honor cord.
++ Students who have an 85% overall grade or above and completed 10 hours of community service and only missed a maximum of 10 days are eligible for an honor cord.
++ Students who have perfect attendance and either have a 80% overall grade or completed 20 hours of community service are eligible for an honor cord.
++ All other cases would mean the student is not eligible for an honor cord.
+
+These one is pretty straightforward since it mainly uses lots of if statements and scanners in order to collect the user/students statistics
+
+### Sample students
+
+I made a few sample students and their stories:
+
+----------
+
+**Name: Thomas Tanker**
+
+Overall Grade: 68.7     Absences: 12     Community Service Hours: 35 
+
+
+**Student Profile:**
+Thomas tanker is a student who is not super book smart, but he likes helping others. Because of this, he spends a lot of time playing football and volunteering at the food bank, helping feed the people who are struggling in his community. Sometimes he misses school because of football injury, but for the most part he tries his best to be attentive and present at school. 
+
+**Name: John Steak**
+
+Overall Grade: 98.9     Absences: 0     Community Service Hours: 2
+
+**Student Profile:**
+John Steak only cares about 2 things, his GPA and his perfect attendance record. Because of this, he rarely does anything fun, let alone any community service, but he makes sure that he is always getting A+ on his assignments and that he never misses a day of school… even when he is sick!!
+
+**Name: Frank Furt**
+
+Overall Grade: 85.7     Absences: 9     Community Service Hours: 15
+
+**Student Profile:**
+Frank Furt is your average, run of the mill student. He may not wow anyone with his attendance or his GPA, but both are respectable, as well as the amount of time he dedicates to his community with a respectable 15 hours of community service at the senior center. He may not be outstanding, but he is definitely reliable.
+
+**This is the if statement responsible for all of the qualifying.**
+
+![alt text](image.png)
+
+</details>

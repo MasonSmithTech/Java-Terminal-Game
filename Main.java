@@ -23,6 +23,20 @@ public class Main {
         int number = scanner.nextInt();
         if (number == 1) {
             System.out.println("You open the door, and you are met with a hust of fresh air, you see the viel of night before you... you step outside");
+            System.out.println("Outside, you see a forest to your right and water to your left, with city lights faintly shining in the distance.");
+            System.out.println("Do you want to go to the forest or the water? f/w");
+            Scanner scanner67 = new Scanner(System.in);
+            String input67 = scanner67.nextLine();
+            if (input67.equals("f")) {
+                System.out.println("You turn and march towards the forest, the trees seeming larger then you initially realized.");
+                forest();
+            } else if (input67.equals("w")) {
+                System.out.println("You head towards the water, the waves lapping at your feet... you spot a raft behind a rock...");
+                System.out.println("Hopping on the raft, the city lights shining across the bay seem to be getting brighter... you are almost free.");
+                System.out.println("as you paddle through the fridgid water... you notice a dorsel fin pierce the waters surface.... this cant be good.");
+                System.out.println("you cant outrun the shark... better luck next time!");
+                dead();
+            }
         }
 
         if (number == 2) {

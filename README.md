@@ -13,7 +13,7 @@ This is a set of three programs written inside of java that can be viewed, edite
 
 # How-To-Play
 To view and run my projects go to this website:
-https://sites.google.com/view/escapeislandjavaterra/home
+https://sites.google.com/view/terraweek1/home
 
 Once you open the website you are greeted with a page which has buttons taking you to all of the programs for this project. When you go to a program page, you will see that the program is embedded into the page and ready to run. Simply press the the red button in order to start the program, and interact through console. (See image bellow)
 <img width="960" height="264" alt="directions" src="https://github.com/user-attachments/assets/767a77a0-e0f6-4005-91f1-784650f2a3b3" />
